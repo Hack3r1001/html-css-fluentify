@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+main{
+  width: 100%;
+  height: 100vh;
+}
+header{
+  background: #0d325a;
+  height: 500px;
+  position: relative;
+  background-image: url("../img/oldman.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 100% 100%;
+}
+nav:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+nav{
+  width: 80%;
+  margin: auto;
+}
+.logo, .navcol1{
+  float: left;
+}
+.logo{
+  margin-top: 2%;
+}
+.navcol1{
+  margin: 3% 12% 0 5%;
+}
+.navcol2{
+  float: right;
+  margin: 3% 0 0 0;
+}
+li{
+  list-style-type: none;
+  float: left;
+  padding: 5px;
+}
+a{
+  text-decoration:none;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.navbar:hover{
+  color: #7fb802;
+}
+#tutor{
+  opacity: 0.5;
+}
+#login{
+  padding: 8px 20px;
+  border: solid 1px white;
+  border-radius: 9%;
+}
+.strutt{
+  padding: 9px 8px;
+  background: #7fb802;
+  border-radius: 5%;
+}
+.rowslogan{
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+.rowslogan{
+  content: "";
+  display: table;
+  clear: both;
+}
+.slogan{
+  width: 50%;
+  float: left;
+}
+h1{
+  font-family:  Georgia, "Times New Roman", serif;
+  font-size: 40px;
+  color: white;
+}
+.piano{
+  padding: 10px 20px;
+  float: left;
+  margin: 40px 0;
+
+}
+.rowlanguage{
+  background: #F9F9F9;
+  height: 150px;
+  text-align: center;
+}
+#textblack{
+  font-size: 28px;
+  font-weight: 400;
+  padding: 45px 0 0 0;
+  color: #373a3c;
+}
+#textsotto{
+  color: #999;
+  font-size: 20px;
+  padding: 5px 0 20px 0;
+}
+.colonne{
+  position: relative;
+}
+.colonne:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.primacol, .secondacol, .terzacolo{
+  float: left;
+  width: 26.6%;
+}
+.primacol{
+  margin-left: 5%;
+  background-image: url("../img/profile.svg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 50% 8%;
+}
+.paragrafi{
+  text-align: center;
+  margin-top: 220px;
+  margin-bottom: 70px;
+}
+h6{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Museo Sans';
+  color: #7fb802;
+}
+.info{
+  color: #b2b2b2;
+  font-size: 18px;
+}
+.colon{
+  border: 0;
+  border-top: 4px solid rgba(0,0,0,.1);
+  margin: 16px 180px;
+}
+.secondacol{
+  background-image: url("../img/computer.svg");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 50% 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.terzacolo{
+  margin-right: 5%;
+  background-image: url("../img/doc.svg");
+  background-repeat: no-repeat;
+  background-size: 38%;
+  background-position: 50% 8%;
+}
+hr{
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  margin: 16px 16px;
+}
+.img{
+  height: 300px;
+  width: 45%;
+  float: left;
+  border: 1px solid black;
+  margin-left: 10%;
+}
+.titolo{
+  height: 300px;
+  width: 45%;
+  float: left;
+  border: 1px solid black;
+}
+.livello{
+  background: yellow;
+}
+.livello::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* strttura piano */
+.struttpiano{
+  background: #F9F9F9;
+  height: 200px;
+}
+/* lezioni */
+.lezioni{
+  background: #0d325a;
+  height: 500px;
+}
